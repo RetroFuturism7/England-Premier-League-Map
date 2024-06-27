@@ -1,0 +1,208 @@
+.el-row {
+    margin-bottom: 20px;
+}
+
+.el-row:last-child {
+    margin-bottom: 0;
+}
+
+.el-col {
+    border-radius: 4px;
+}
+
+.grid-button {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    padding: 0;
+}
+
+.grid-button .button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.button-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+.button-text {
+    margin-top: 10px;
+    color: #37003C
+}
+
+.grid-button:hover .button-text {
+    color: white;
+    /* 设置鼠标悬停时的字体颜色 */
+}
+
+.button-arsenal:hover,
+.button-arsenal:hover .button-content,
+.button-arsenal:hover .button-image,
+.button-arsenal:hover .button-text {
+    background-color: red;
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+
+.button-astonvilla:hover,
+.button-astonvilla:hover .button-content,
+.button-astonvilla:hover .button-image,
+.button-astonvilla:hover .button-text {
+    background-color: rgb(93, 17, 93);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-bournemouth:hover,
+.button-bournemouth:hover .button-content,
+.button-bournemouth:hover .button-image,
+.button-bournemouth:hover .button-text {
+    background-color: rgb(205, 7, 7);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-brentford:hover,
+.button-brentford:hover .button-content,
+.button-brentford:hover .button-image,
+.button-brentford:hover .button-text {
+    background-color: rgb(222, 4, 4);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-brighton:hover,
+.button-brighton:hover .button-content,
+.button-brighton:hover .button-image,
+.button-brighton:hover .button-text {
+    background-color: rgb(8, 82, 241);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-burnley:hover,
+.button-burnley:hover .button-content,
+.button-burnley:hover .button-image,
+.button-burnley:hover .button-text {
+    background-color: rgb(63, 13, 63);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-chelsea:hover,
+.button-chelsea:hover .button-content,
+.button-chelsea:hover .button-image,
+.button-chelsea:hover .button-text {
+    background-color: blue;
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-crystalpalace:hover,
+.button-crystalpalace:hover .button-content,
+.button-crystalpalace:hover .button-image,
+.button-crystalpalace:hover .button-text {
+    background-color: rgb(20, 39, 186);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-everton:hover,
+.button-everton:hover .button-content,
+.button-everton:hover .button-image,
+.button-everton:hover .button-text {
+    background-color: rgb(30, 6, 239);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-fulham:hover,
+.button-fulham:hover .button-content,
+.button-fulham:hover .button-image,
+.button-fulham:hover .button-text {
+    background-color: rgb(155, 155, 155);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-liverpool:hover,
+.button-liverpool:hover .button-content,
+.button-liverpool:hover .button-image,
+.button-liverpool:hover .button-text {
+    background-color: rgb(240, 37, 37);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-luton:hover,
+.button-luton:hover .button-content,
+.button-luton:hover .button-image,
+.button-luton:hover .button-text {
+    background-color: rgb(207, 93, 5);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-mancity:hover,
+.button-mancity:hover .button-content,
+.button-mancity:hover .button-image,
+.button-mancity:hover .button-text {
+    background-color: rgb(25, 138, 179);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-manunited:hover,
+.button-manunited:hover .button-content,
+.button-manunited:hover .button-image,
+.button-manunited:hover .button-text {
+    background-color: rgb(240, 37, 37);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-newcastle:hover,
+.button-newcastle:hover .button-content,
+.button-newcastle:hover .button-image,
+.button-newcastle:hover .button-text {
+    background-color: rgb(16, 12, 12);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-nottingham:hover,
+.button-nottingham:hover .button-content,
+.button-nottingham:hover .button-image,
+.button-nottingham:hover .button-text {
+    background-color: rgb(191, 2, 94);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-sheffield:hover,
+.button-sheffield:hover .button-content,
+.button-sheffield:hover .button-image,
+.button-sheffield:hover .button-text {
+    background-color: rgb(158, 59, 89);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-hotspur:hover,
+.button-hotspur:hover .button-content,
+.button-hotspur:hover .button-image,
+.button-hotspur:hover .button-text {
+    background-color: rgb(155, 155, 155);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-westham:hover,
+.button-westham:hover .button-content,
+.button-westham:hover .button-image,
+.button-westham:hover .button-text {
+    background-color: rgb(93, 45, 45);
+    /* 设置鼠标悬停时的背景颜色 */
+}
+
+.button-wolve:hover,
+.button-wolve:hover .button-content,
+.button-wolve:hover .button-image,
+.button-wolve:hover .button-text {
+    background-color: rgb(222, 168, 4);
+    /* 设置鼠标悬停时的背景颜色 */
+}
