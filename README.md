@@ -39,7 +39,7 @@ cd backend
 ### Create a virtual environment and activate it
 ```shell
 python -m venv .venv
-source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+.venv\Scripts\activate  # On Mac, use `source .venv/bin/activate`
 ```
 
 ### Install the required packages
